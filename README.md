@@ -11,8 +11,7 @@ I *believe* this is the first public example of actually retrieving output from 
 
 Update 11-14-2019: Added mitigation policy to block non-Microsoft signed DLLs. This is similar to Cobalt Strike's `blockdlls` feature and was ported in from referencing [@xpn](https://twitter.com/_xpn_)'s great work which can be found [here](https://blog.xpnsec.com/protecting-your-malware/).
 
-### LogonSessionEnum.cs
-Usage: `LogonSessionEnum.exe`
+### PPID.task
+This is a modified code from ExecutionTesting.cs which is compatible with Covenant Tasks system. 
 
-Wanted to pull similar logon data, including LUIDs, to relate with [@harmj0y](https://twitter.com/harmj0y)'s [Rubeus](https://github.com/GhostPack/Rubeus) project. I noticed afterwards that a lot of similar code is in the Rubeus project. This code will also tell you which logon session your current process belongs to, useful when you're trying to understand which logon session you need to inject tickets into.
-
+More information about PPID.task is in my blog
